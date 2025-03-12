@@ -1,0 +1,9 @@
+requests
+whisper
+PyPDF2
+python-dotenv
+openai
+torch
+torchvision
+torchaudio
+gradio

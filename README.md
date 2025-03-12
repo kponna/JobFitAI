@@ -3,6 +3,8 @@
 ## Overview
 JobFitAI is an AI-powered resume analysis tool that helps job seekers optimize their resumes for specific job descriptions. It utilizes DeepSeek-R1 via DeepInfra to extract key skills, experiences, and qualifications from resumes and provides actionable feedback to improve job alignment. The project features a Gradio-based web interface that allows users to upload resumes in PDF or audio format and receive structured analysis and recommendations.
 
+Checkout the detailed guide on this project at 
+
 ## Features
 - **AI-driven resume analysis** using DeepSeek-R1 on DeepInfra
 - **PDF and Audio resume support** with automated text extraction
@@ -13,9 +15,6 @@ JobFitAI is an AI-powered resume analysis tool that helps job seekers optimize t
 ## Folder Structure
 ```
 JobFitAI/
-│── .gradio/            # Flagged files directory
-│── resume/             # Directory for uploaded resumes
-│   └── Karthik Resume.pdf
 │── src/                # Source code for resume analysis
 │   ├── __pycache__/    # Compiled Python files
 │   ├── analyzer.py     # Calls DeepSeek-R1 for resume analysis
